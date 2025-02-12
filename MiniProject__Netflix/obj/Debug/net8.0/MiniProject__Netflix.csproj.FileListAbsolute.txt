@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.AssemblyInfo.cs
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\bin\Debug\net8.0\MiniProject__Netflix.exe
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\bin\Debug\net8.0\MiniProject__Netflix.deps.json
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\bin\Debug\net8.0\MiniProject__Netflix.runtimeconfig.json
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\bin\Debug\net8.0\MiniProject__Netflix.dll
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\bin\Debug\net8.0\MiniProject__Netflix.pdb
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.dll
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\refint\MiniProject__Netflix.dll
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.pdb
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.genruntimeconfig.cache
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\ref\MiniProject__Netflix.dll
