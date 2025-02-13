@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniProject__Netflix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad464e2fc7af27adbf472de77d6d356c87d2dd83")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniProject__Netflix")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniProject__Netflix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

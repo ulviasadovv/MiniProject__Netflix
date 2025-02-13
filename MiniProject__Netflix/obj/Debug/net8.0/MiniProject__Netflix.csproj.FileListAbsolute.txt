@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix
 C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.pdb
 C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.genruntimeconfig.cache
 C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\ref\MiniProject__Netflix.dll
+C:\Users\HP\Desktop\Tasks\CodeAcademy2\MiniProject__Netflix\MiniProject__Netflix\obj\Debug\net8.0\MiniProject__Netflix.sourcelink.json

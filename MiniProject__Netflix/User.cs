@@ -2,21 +2,16 @@
 {
     internal class User : BaseModel
     {
-        public string Name { get; private set; }
-        public string Password { get; private set; }
-        public List<Movie> MoviesOwned { get; set; }
-
-
-        public User(string name, string password) : base()
+        public User(string name, string password, bool isAdmin = false) : base()
         {
             Name = name;
             Password = password;
+            IsAdmin = isAdmin;
         }
 
-        enum UserStatus
-        {
-            Admin,
-            User,
-        }
+        public string Name { get; private set; }
+        public string Password { get; private set; }
+        public bool IsAdmin { get; private set; }
+        public List<Movie> Watchlist { get; set; }
     }
 }
