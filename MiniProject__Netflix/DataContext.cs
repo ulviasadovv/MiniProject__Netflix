@@ -53,9 +53,23 @@
         {
             Genres.Add(genre);
         }
+        public void AddToWatchList(int userId, int movieId)
+        {
+            foreach (var user in Users)
+            {
+                if (user.Id == userId)
+                {
+                    user.Watchlist.Add(GetMovieById(movieId));
+                    Console.WriteLine("Movie added to watchlist!");
+                    return;
+                }
+                Console.WriteLine("User not found!");
+            }
+        }
         #endregion
 
         #region Get Methods
+        // Get User
         public User GetUser(string name, string password)
         {
             foreach (var user in Users)
@@ -82,6 +96,7 @@
         {
             return Users;
         }
+        // Get Movie
         public Movie GetMovie(string name)
         {
             foreach (var movie in Movies)
@@ -103,6 +118,17 @@
                 }
             };
             return new Movie();
+        }
+        public Movie GetMovieByName(string name)
+        {
+            foreach (var movie in Movies)
+            {
+                if (movie.Name == name)
+                {
+                    return movie;
+                }
+            };
+            return new Movie("undefined", new Genre("undefined"), 0, 0);
         }
         public List<Movie> GetMoviesByGenre(Genre genre)
         {
@@ -148,6 +174,18 @@
                     Console.WriteLine();
                 }
             }
+        }
+        // Get Genre
+        public Genre GetGenre(string name)
+        {
+            foreach (var genre in Genres)
+            {
+                if (genre.Name == name)
+                {
+                    return genre;
+                }
+            };
+            return new Genre("undefined");
         }
         #endregion
 

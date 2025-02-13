@@ -2,6 +2,7 @@
 {
     internal class Genre : BaseModel
     {
+        public Genre() { }
         public Genre(string name) : base()
         {
             Name = name;
