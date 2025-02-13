@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ulvisha\\source\\repos\\MiniProject__Netflix\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|c:\\users\\ulvisha\\source\\repos\\miniproject__netflix\\miniproject__netflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|solutionrelative:miniproject__netflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|c:\\users\\ulvisha\\source\\repos\\miniproject__netflix\\miniproject__netflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|solutionrelative:miniproject__netflix\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|c:\\users\\ulvisha\\source\\repos\\miniproject__netflix\\miniproject__netflix\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|solutionrelative:miniproject__netflix\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|c:\\users\\ulvisha\\source\\repos\\miniproject__netflix\\miniproject__netflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|solutionrelative:miniproject__netflix\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E31B5DC-D3A1-46F7-8ED8-E198970EB858}|MiniProject__Netflix\\MiniProject__Netflix.csproj|c:\\users\\ulvisha\\source\\repos\\miniproject__netflix\\miniproject__netflix\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\ulvisha\\source\\repos\\MiniProject__Netflix\\MiniProject__Netflix\\DataContext.cs",
               "RelativeDocumentMoniker": "MiniProject__Netflix\\DataContext.cs",
               "ToolTip": "C:\\Users\\ulvisha\\source\\repos\\MiniProject__Netflix\\MiniProject__Netflix\\DataContext.cs",
               "RelativeToolTip": "MiniProject__Netflix\\DataContext.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAuwDgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAADwv7EAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T15:04:59.582Z",
               "IsPinned": true,
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ulvisha\\source\\repos\\MiniProject__Netflix\\MiniProject__Netflix\\User.cs",
               "RelativeDocumentMoniker": "MiniProject__Netflix\\User.cs",
@@ -106,8 +106,7 @@
               "RelativeToolTip": "MiniProject__Netflix\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T15:01:11.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T15:01:11.905Z"
             },
             {
               "$type": "Document",
@@ -123,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ulvisha\\source\\repos\\MiniProject__Netflix\\MiniProject__Netflix\\Program.cs",
               "RelativeDocumentMoniker": "MiniProject__Netflix\\Program.cs",
               "ToolTip": "C:\\Users\\ulvisha\\source\\repos\\MiniProject__Netflix\\MiniProject__Netflix\\Program.cs",
               "RelativeToolTip": "MiniProject__Netflix\\Program.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAgwOoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwF8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T14:57:41.398Z",
               "EditorCaption": ""

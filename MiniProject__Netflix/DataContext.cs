@@ -173,8 +173,10 @@
                     Console.WriteLine($"Number of View: {movie.NumberOfView}");
                     Console.WriteLine(new string('=', 30));
                     Console.WriteLine();
+                    break;
                 }
             }
+            return;
         }
         // Get Genre
         public Genre GetGenre(string name)
