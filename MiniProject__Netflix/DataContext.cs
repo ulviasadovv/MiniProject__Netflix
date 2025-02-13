@@ -63,8 +63,9 @@
                     Console.WriteLine("Movie added to watchlist!");
                     return;
                 }
-                Console.WriteLine("User not found!");
             }
+
+            Console.WriteLine("User not found!");
         }
         #endregion
 

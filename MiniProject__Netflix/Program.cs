@@ -42,11 +42,11 @@
                 bool logout = false;
                 if (user.IsAdmin)
                 {
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine($"Welcome to the admin page {user.Name}!");
                     do
                     {
-                        Console.BackgroundColor = ConsoleColor.DarkRed;
-                        Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine($"Welcome to the admin page {user.Name}!");
                         Console.WriteLine("Your options are:");
                         Console.WriteLine("1. Add movie");
                         Console.WriteLine("2. Remove movie");
@@ -116,11 +116,12 @@
                 }
                 else
                 {
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine();
+                    Console.WriteLine($"Welcome {user.Name}!");
                     do
                     {
-                        Console.BackgroundColor = ConsoleColor.Black;
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine($"Welcome {user.Name}!");
                         Console.WriteLine("Choose an option:");
                         Console.WriteLine("1. Watch movies");
                         Console.WriteLine("2. Filter movies by genre");
@@ -134,16 +135,34 @@
                         switch (option)
                         {
                             case "1":
+                                Console.WriteLine();
                                 Console.WriteLine("Movies:");
                                 foreach (var movie in dataContext.Movies)
                                 {
+                                    Console.WriteLine();
+                                    Console.WriteLine(new string('=', 30));
                                     Console.WriteLine($"ID: {movie.Id}");
-                                    Console.WriteLine($"Name: {movie.Name}");
-                                    Console.WriteLine($"Genre: {movie.Genre.Name}");
-                                    Console.WriteLine($"Duration: {movie.Duration} min");
-                                    Console.WriteLine($"Release Year: {movie.ReleaseYear}");
                                     Console.WriteLine(new string('-', 30));
+                                    Console.WriteLine($"Name: {movie.Name}");
+                                    Console.WriteLine(new string('-', 30));
+                                    Console.WriteLine($"Genre: {movie.Genre.Name}");
+                                    Console.WriteLine(new string('-', 30));
+                                    Console.WriteLine($"Duration: {movie.Duration} min");
+                                    Console.WriteLine(new string('-', 30));
+                                    Console.WriteLine($"Release Year: {movie.ReleaseYear}");
+                                    Console.WriteLine(new string('=', 30));
+                                    Console.WriteLine();
                                 }
+                                Console.Write("Enter movie name: ");
+                                string movieToWatch = Console.ReadLine();
+                                Movie watchingMovie = dataContext.GetMovieByName(movieToWatch);
+                                if (watchingMovie.Name != "undefined")
+                                {
+                                    watchingMovie.NumberOfView++;
+                                    Console.WriteLine($"Watching the movie {watchingMovie.Name}");
+                                }
+                                else Console.WriteLine("There is no moive by that name!");
+
                                 break;
                             case "2":
                                 var genre = new Genre();
@@ -178,7 +197,6 @@
                             case "3":
                                 Console.Write("Enter movie ID: ");
                                 int movieId = int.Parse(Console.ReadLine());
-                                dataContext.AddToWatchList(user.Id, movieId);  // BURA BAX!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                                 break;
                             case "4":
                                 Console.Write("Enter movie name: ");

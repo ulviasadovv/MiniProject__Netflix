@@ -17,6 +17,6 @@
         }
         public string Password { get; private set; }
         public bool IsAdmin { get; private set; }
-        public List<Movie> Watchlist { get; set; }
+        public List<Movie> Watchlist { get; set; } = new List<Movie>();
     }
 }
